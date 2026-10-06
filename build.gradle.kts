@@ -6,7 +6,3 @@ plugins {
   alias(libs.plugins.secrets) apply false
   alias(libs.plugins.google.services) apply false
 }
-
-tasks.register("assembleDebug") {
-  dependsOn(":app:assembleDebug")
-}
