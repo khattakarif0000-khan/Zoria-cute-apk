@@ -1,0 +1,27 @@
+workflows:
+  android-debug-apk:
+    name: Android Debug APK Build
+    instance_type: linux
+    max_build_duration: 120
+    environment:
+      java:
+        version: 17
+      android_sdk:
+        api_level: 36
+        build_tools_version: 36.0.0
+      vars:
+        GRADLE_OPTS: "-Xmx3072m -XX:MaxPermSize=512m"
+    scripts:
+      - name: Set up Gradle wrapper permissions
+        script: chmod +x ./gradlew
+      - name: Build debug APK
+        script: ./gradlew :app:assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/app-debug.apk
+    publishing:
+      email:
+        recipients:
+          - $PERSONAL_EMAIL
+        notify:
+          success: true
+          failure: true
