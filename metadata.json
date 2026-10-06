@@ -1,0 +1,6 @@
+{
+  "name": "ZORIA",
+  "description": "ZORIA - Real intelligent AI voice assistant and companion with Urdu and multilingual foundation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

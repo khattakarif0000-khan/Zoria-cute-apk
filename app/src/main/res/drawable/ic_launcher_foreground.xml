@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central Glowing Voice Core -->
+    <path
+        android:pathData="M54,54m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="38"
+                android:endX="70"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7C4DFF" />
+                <item android:offset="0.5" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#FF4081" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core Sparkle -->
+    <path
+        android:pathData="M54,54m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Sonic Resonance Ring 1 -->
+    <path
+        android:pathData="M54,30 C67.25,30 78,40.75 78,54 C78,67.25 67.25,78 54,78 C40.75,78 30,67.25 30,54 C30,40.75 40.75,30 54,30 Z"
+        android:strokeColor="#8000E5FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- Sonic Resonance Ring 2 (Outer Orbit) -->
+    <path
+        android:pathData="M54,22 C71.67,22 86,36.33 86,54 C86,71.67 71.67,86 54,86 C36.33,86 22,36.33 22,54 C22,36.33 36.33,22 54,22 Z"
+        android:strokeColor="#407C4DFF"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000" />
+
+    <!-- Z Spark / AI Energy Points -->
+    <path
+        android:pathData="M54,16 L56,20 L60,22 L56,24 L54,28 L52,24 L48,22 L52,20 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M78,40 L79.5,43 L82.5,44.5 L79.5,46 L78,49 L76.5,46 L73.5,44.5 L76.5,43 Z"
+        android:fillColor="#FF4081" />
+    <path
+        android:pathData="M30,68 L31.5,71 L34.5,72.5 L31.5,74 L30,77 L28.5,74 L25.5,72.5 L28.5,71 Z"
+        android:fillColor="#7C4DFF" />
+
+    <!-- Z Symbol Overlay -->
+    <path
+        android:pathData="M50,49 L58,49 L51,59 L58,59"
+        android:strokeColor="#0A0F24"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

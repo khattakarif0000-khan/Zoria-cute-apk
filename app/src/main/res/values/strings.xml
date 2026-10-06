@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ZORIA</string>
+    <string name="tagline">ذہین آواز معاون اور ہم سفر</string>
+    <string name="status_idle">تیار ہے (IDLE)</string>
+    <string name="status_listening">سن رہی ہوں… (LISTENING)</string>
+    <string name="status_processing">سوچ رہی ہوں… (PROCESSING)</string>
+    <string name="status_speaking">بول رہی ہوں… (SPEAKING)</string>
+    <string name="status_error">خرابی (ERROR)</string>
+    <string name="voice_kore">آواز: Kore (بنیادی)</string>
+    <string name="voice_aoede">آواز: Aoede (متبادل)</string>
+    <string name="action_stop">روکیں (STOP)</string>
+    <string name="action_repeat">دوبارہ بتاؤ (Repeat / Simplify)</string>
+    <string name="initial_greeting_urdu">السلام علیکم! میں زوریا (ZORIA) ہوں۔ میں آپ کی کس طرح مدد کر سکتی ہوں؟</string>
+    <string name="prompt_placeholder">بولیں یا لکھیں (Urdu, Roman Urdu, English)…</string>
+    <string name="mic_permission_needed">مائیکروفون کی اجازت درکار ہے۔ برائے مہربانی اجازت دیں تاکہ زوریا آپ کی آواز سن سکے۔</string>
+    <string name="grant_permission">اجازت دیں</string>
+    <string name="api_key_missing">Gemini API Key درکار ہے۔ برائے مہربانی سیٹنگز میں یا Secrets پینل میں شامل کریں۔</string>
+</resources>

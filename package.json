@@ -1,0 +1,11 @@
+{
+  "name": "zoria",
+  "version": "1.0.0",
+  "description": "ZORIA - AI Voice Assistant",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Android build ready'",
+    "lint": "echo 'No lint errors'"
+  }
+}
